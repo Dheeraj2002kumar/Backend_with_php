@@ -23,3 +23,13 @@ $income = 600;   // Variable 2:
 </pre>
 <p>Now, we can use the echo command in the following way,</p>
 <pre>echo "This guy's is $name and his income is Rs $income";</pre>
+
+<h6>Important Notes:</h6>
+<ol>
+  <li>Never forget to put a semicolon ( ; ) at the end of a command in PHP as it is a must to terminate it.</li>
+  <li>Moreover, unlike PHP commands such as echo, which can be written in upper case letters while assigning variables, keep this thing in your mind that even a single lower-case letter can change the variable, and you may end up getting an error.</li>
+  <li>If you have any questions or queries regarding this tutorial, please post that question on the Question and Answers section.</li>
+  <li>Make sure Apache is running in your XAMPP while you attempt the aforementioned procedures.</li>
+</ol>
+<h6>You can check out the code</h6>
+<a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/Backend_php/1_Variable.php">-->code of Variable</a>
