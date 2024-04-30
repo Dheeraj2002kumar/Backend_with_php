@@ -16,3 +16,4 @@ Let us understand the concept of variables step-by-step. We assign variables for
   <li>Put a “$” sign before the variable and declare it</li>
   <li>Assign the value to the variable during declaration or later sometime in the script.</li>
 </ol>
+<h6>Example</h6>
