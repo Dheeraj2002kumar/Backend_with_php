@@ -32,4 +32,4 @@ $income = 600;   // Variable 2:
   <li>Make sure Apache is running in your XAMPP while you attempt the aforementioned procedures.</li>
 </ol>
 <h6>You can check out the code:-</h6>
-<a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/Backend_php/1_Variable.php">* code of Variable</a>
+--><a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/Backend_php/1_Variable.php">code of Variable</a>
