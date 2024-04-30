@@ -17,3 +17,9 @@ Let us understand the concept of variables step-by-step. We assign variables for
   <li>Assign the value to the variable during declaration or later sometime in the script.</li>
 </ol>
 <h6>Example</h6>
+<pre>
+$name = "Dheeraj"; // Variable 1: 
+$income = 600;   // Variable 2: 
+</pre>
+<p>Now, we can use the echo command in the following way,</p>
+<pre>echo "This guy's is $name and his income is Rs $income";</pre>
