@@ -33,3 +33,26 @@ $income = 600;   // Variable 2:
 </ol>
 <h6>You can check out the code:-</h6>
 --><a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/Backend_php/1_Variable.php">code of Variable</a>
+<h4>Rules for Creating Variables in PHP</h4>
+<p>
+In the previous tutorials, we started to learn about various concepts of PHP, and we thoroughly understood the concept of variables. We talked about its uses, and we saw how variables could make our websites more efficient and easy to maintain. Now is the time to actually learn how to use it properly and how to move towards achieving expertise in creating and forming variables in PHP. For your ease, I would like to recommend using the Bootstrap framework to reduce your efforts on the writing frontend. You can copy and paste the content available there, such as you can copy and paste the navbar component for your website from <a href="https://getbootstrap.com/">Bootstrap</a>.<br>
+As we discussed earlier, a variable is essentially a compartment that holds data or information that can change with time, based on the program's conditions, data, or information. We allot variables for a particular task which can be changed with time whenever required. 
+</p>
+
+<h4>What are the rules for creating a PHP variable?</h4>
+<p>Following are the rules of creating a PHP variable,</p>
+<ol>
+  <li>A variable in PHP always starts with a dollar sign.</li>
+  <li>It cannot start with a number.</li>
+  <li>A variable can either start with a letter or an underscore</li>
+  <li>It can only hold alphanumeric characters or underscore.</li>
+  <li>You can use an alphanumeric character while assigning the name of a variable. For example, using symbols such as “&” or “%” in variable names will produce an error.</li>
+  <li>Variables in PHP are case-sensitive. It means “$_NAME” and “$_name” are two different variables.</li>
+</ol>
+
+<h4>Important Notes:</h4>
+<ol>
+  <li>If you have any questions or queries regarding this tutorial, feel free to post that question on the Question and Answers section.</li>
+  <li>Make sure Apache is running in your XAMPP control panel while you attempt the aforementioned procedures.</li>
+</ol>
+--> <a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/Backend_php/2_more_variables.php">You can check the code</a>
