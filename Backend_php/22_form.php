@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -9,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Get and post!</title>
+    <title>Contact Us</title>
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -49,31 +48,71 @@
 </nav>
 <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+        $name = $_POST['name'];
         $email = $_POST['email'];
-        $password = $_POST['pass'];
-        echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
-        <strong>Success!</strong> Your email ' . $email.' and password '. $password.' has been submitted successfully!
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-          <span aria-hidden="true">×</span>
-        </button>
-      </div>';
-      // Submit these to a database
+        $desc = $_POST['desc'];
+        
+      
+      // Connecting to the Database
+      $servername = "localhost";
+      $username = "root";
+      $password = "";
+      $database = "contacts";
+
+      // Create a connection
+      $conn = mysqli_connect($servername, $username, $password, $database);
+      // Die if connection was not successful
+      if (!$conn){
+          die("Sorry we failed to connect: ". mysqli_connect_error());
+      }
+      else{ 
+        // Submit these to a database
+        // Sql query to be executed 
+        $sql = "INSERT INTO `contactus` (`name`, `email`, `concern`, `Date`) VALUES ('$name', '$email', '$desc', current_timestamp())";
+        $result = mysqli_query($conn, $sql);
+ 
+        if($result){
+          echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+          <strong>Success!</strong> Your entry has been submitted successfully!
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>';
+        }
+        else{
+            // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);
+            echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+          <strong>Error!</strong> We are facing some technical issue and your entry ws not submitted successfully! We regret the inconvinience caused!
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>';
+        }
+
+      }
+
     }
 
     
 ?>
 
 <div class="container mt-3">
-<h1>Please enter your email and password</h1>
-    <form action="/backend_php/17_GET_POST.php" method="post">
+<h1>Contact us for your concerns</h1>
+    <form action="/backend_php/22_form.php" method="post">
     <div class="form-group">
-        <label for="email">Email address</label>
-        <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp">
+        <label for="name">Name</label>
+        <input type="text" name="name" class="form-control" id="name" aria-describedby="emailHelp">
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp"> 
         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
     </div>
+
     <div class="form-group">
-        <label for="pass">Password</label>
-        <input type="password" class="form-control" id="pass" name="pass">
+        <label for="desc">Description</label>
+        <textarea class="form-control" name="desc" id="desc" cols="30" rows="10"></textarea> 
     </div>
     
     <button type="submit" class="btn btn-primary">Submit</button>
@@ -88,63 +127,3 @@
   </body>
 </html>
 
-<?php
-// Get method in php
-// The get method sends the information of the user with the page request. This information can be seen in the URL of the page.
-/*
-<html>
-   <body>
-      <form action = "<?php $_PHP_SELF?>" method = "GET">
-         Name: <input type = "text" name = "name" />
-         Age: <input type = "text" name = "age" />
-         <input type = "submit" />
-      </form>   
-   </body>
-</html>
-// Set the method to “Get”
-
-// Note: $_POST is an associative array in PHP that contains all the information sent through the POST method.
-*/
-
-// post method in php
-// The post method sends the data to the backend. The information is encoded and put into the header known as QUERY_STRING. The user cannot see this information from the URL of the page.
-
-/*
-All you have to do is to set the method to “Post”. $_PHP_SELF is a special variable that contains the name of the current PHP page.
-
-Note: $_GET is an associative array in PHP that contains all the information sent through GET method.
-
-Comparison of Post and Get method – Advantages/Disadvantages
-By the GET method, only 1024 characters of information can be sent. Whereas the POST method does not have any restriction.
-
-As the information exchanged by using the GET method can be seen through the URL of the page. It is not recommended to use the GET method for passing sensitive data like passwords.
-
-In the POST method, the information goes through the HTTP header. So, the security depends on HTTP protocol.
-
-The POST method can send both binary and ASCII data. On the other hand, the GET method cannot be used to send binary data like documents, images, etc.
-
-How to handle GET and POST methods in PHP
-PHP provides $_REQUEST variable that allows to access the contents of both POST and GET methods. Refer to the example below to access the data of the above example forms.
-*/
-
-/*
-<?php
-   if( $_REQUEST["name"] || $_REQUEST["age"] ) {
-      echo "Welcome ". $_REQUEST['name']. "<br />";
-      echo "You are ". $_REQUEST['age']. " years old.";
-   }
-?>
-*/
-
-/*
-The if statement checks if there is a name or age variable received.
-
-You can use the $_SERVER['REQUEST_METHOD'] to check if the data is received through GET or POST method.
-*/
-
-/*
-$_SERVER['REQUEST_METHOD'] == 'POST'
-$_SERVER['REQUEST_METHOD'] ==  'GET'
-*/
-
-?>
