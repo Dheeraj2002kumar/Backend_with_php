@@ -160,13 +160,9 @@ Echo strpos ($x, “is”);
 
 <code>
 Syntax: str_replace (mixed $search, mixed $replace, mixed $subject [, int, $count ])
-
 Example,
-
 Let $x = “dheeraj is a good boy”; be our variable, then
-
 Echo str_replace (“dheeraj”, “rohan”, $name);
-
 **result: rohan is a good boy
 </code>
 <p>Repeat a string (str_repeat)
@@ -175,9 +171,81 @@ This function is used to repeat a particular string.</p>
 
 <code>
 Let $x = “dheeraj is a good boy”; be our variable, then
-
 Echo str_repeat ( $x, 3)
-
 **result: dheeraj is a good boy dheeraj is a good boy dheeraj is a good boy
 </code>
 <a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/Backend_php/4_String.php">Code String</a>
+
+<h4>Operators in PHP</h4>
+<h5>What are operators and operands in PHP?</h5>
+<p><i>he operators are the functions that allow us to perform various operations over any values whereas, the operands are the values or objects on which operations are performed.</i></p>
+
+<h5>Types of operators</h5>
+<p>We will be discussing some operators in this tutorial. Following are a few operators,</p>
+<ull>
+  <li>Arithmetic operators: arithmetic operators are used to performing arithmetic operations on values. These arithmetic operations can be addition, subtraction, division, and multiplication. To have a good understanding of it, let’s look into an example. Suppose we have two variables: $a = 5; and $b = 7; now let’s use arithmetic operations on these two variables.</li>
+
+
+<strong> Echo $a + $b; result:</strong> 13
+<strong>Echo $a - $b; result:</strong> -2
+<strong>Echo $a * $b; result:</strong> 35
+<strong>Echo $a / $b; result:</strong> 0.7142
+
+<p> here $a and $b are the operands as they are the objects on which operations are performed, whereas, subtraction, division, addition, and multiplication are the arithmetic operator.</p>
+
+  <li>Assignment operators: the assignment operators are used to assign values to operands. The basic assignment operator is (=). Suppose we have a variable $a = 5, then we can use the assignment operator in such a way,</li>
+  <strong>
+    $x = $a<br>
+    Echo “for x, the value is “ . $x .”<br>”; result: for x, the value is 5d
+  </strong>
+  <p>Now for adding a number in a variable, we can follow the procedure given below,</p>
+
+  <strong>
+     $a += 6;<br>
+    Echo “for a, the value is “ . $a . “<br>”; result: for a, the value is 11
+  </strong>
+  <p>For subtraction,</p>
+
+   <strong>
+     $a -= 6;<br>
+    Echo “for a, the value is “ . $a . “<br>”; result: for a, the value is -1</strong>
+  <p>or multiplication</p>
+
+   <strong>$a *= 6;<br>Echo “for a, the value is “ . $a . “<br>”; result: for a, the value is 30</strong>
+  <p>For division</p>
+
+    
+    
+    
+    
+    
+  <strong>
+    $a /= 6;<br>
+  Echo “for a, the value is “ . $a . “<br>”; result: for a, the value is 0.833333</strong>
+<li>Comparison operators: we use comparison operations two compare two values. Suppose we have two variable, $x = 7; and $y = 9;</li>
+</ul>
+<p>
+  Now,
+  <pre>
+      Echo “for x == y, the result is”;
+      Echo var_dump ($x == $y);
+      Echo. “<br>”
+      Result: for x == y, the result is bool(false)
+  </pre>
+ Similarly, we can further use other comparison operators as well, such as less than (<), greater than (>), and not equal to (<>), etc.
+</p>
+<ul>
+  <li>Logical operators: there are 4 logical operators, and (true if both values are true), or (true if at least one value is true), xor (true if either of the value is true but not both), and (true if both values are true).</li>
+</ul>
+<p>
+  Suppose, we have two variables,
+  <pre>
+       $m = true; $n = false;
+      Echo “for m and n, the result is”;
+      Echo var_dump ($m and $n);
+      Echo. “<br>”
+      Result: for x == y, the result is bool(false)
+  </pre>
+  
+</p>
+<a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/Backend_php/5_Operators.php">Code Operator</a>
