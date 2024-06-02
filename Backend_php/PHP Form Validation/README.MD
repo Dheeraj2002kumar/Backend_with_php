@@ -62,7 +62,14 @@ These pages will show how to process PHP forms with security in mind. Proper val
     </tr>
   </table>
 </pre>
-/*           tje dp  */
+/*       
+
+<tr>
+    <td>Name</td>
+    <td>Required. + Must only contain letters and whitespace</td>
+  </tr>
+
+tje dp  */
 
 
 
