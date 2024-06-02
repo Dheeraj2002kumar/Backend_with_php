@@ -23,14 +23,14 @@ To display the submitted data you could simply echo all the variables.
 The "welcome.php" looks like this:
 
 <pre>
-<html>
-<body>
-
-Welcome <?php echo $_POST["name"]; ?><br>
-Your email address is: <?php echo $_POST["email"]; ?>
-
-</body>
-</html>
+    
+    <html>
+    <body>
+    Welcome <?php echo $_POST["name"]; ?><br>
+    Your email address is: <?php echo $_POST["email"]; ?>
+    </body>
+    </html>
+    
 </pre>
 
 The output could be something like this:
