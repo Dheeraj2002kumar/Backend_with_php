@@ -25,7 +25,7 @@ Your email address is: dheerajkumar@gmail.com
 
 The same result could also be achieved using the HTTP GET method:
 <h4>Example<h4>
-Same example, but the method is set to GET instead of POST:
---> <a href="">welcome_get.html</a>
+Same example, but the method is set to GET instead of POST:<br>
+--> <a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/Backend_php/PHP%20form%20validation/welcome_get.html">welcome_get.html</a>
 <br>and "welcome_get.php" looks like this:<br>
---> <a href="">welcome_get.php</a>
+--> <a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/Backend_php/PHP%20form%20validation/welcome_get.php">welcome_get.php</a>
