@@ -1,17 +1,58 @@
-<H1>PHP Form Validation<H1>
+<H1>PHP Form Validation<H1><br>
 
-<b>Think SECURITY when processing PHP forms!</b>
+Think SECURITY when processing PHP forms!
 
-These pages will show how to process PHP forms with security in mind. Proper validation of form data is important to protect your form from hackers and spammers!
+These pages will show how to process PHP forms with security in mind. Proper validation of form data is important to protect your form from hackers and spammers!<br>
 <img src="form_validation.png" alt="form_validation_photo">
 <br>
 
-<pre>
-<b>Field         	Validation Rules</b>
+<table>
+  <tr>
+    <th>Field</th>
+    <th>Validation Rules</th>
+  </tr>
+
+  <tr>
+    <td>Name</td>
+    <td>Required. + Must only contain letters and whitespace</td>
+  </tr>
+
+  <tr>
+    <td>E-mail</td>
+    <td>Required. + Must contain a valid email address (with @ and .)</td>
+  </tr>
+
+  <tr>
+  <td>Website</td>
+  <td>Optional. If present, it must contain a valid URL</td>
+  </tr>
+
+  <tr>
+    <td>Comment</td>
+    <td>Optional. Multi-line input field (textarea)</td>
+  </tr>
+
+  <tr>
+  <td>Gender</td>
+  <td>Required. Must select one</td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+Field         	Validation Rules
 Name	          Required. + Must only contain letters and whitespace
 E-mail	        Required. + Must contain a valid email address (with @ and .)
 Website	        Optional. If present, it must contain a valid URL
 Comment	        Optional. Multi-line input field (textarea)
 Gender	        Required. Must select one
-</pre>
+
 
