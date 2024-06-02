@@ -13,7 +13,7 @@ To display the submitted data you could simply echo all the variables.
 
 The "welcome1.php" looks like this:
 <br>
-<a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/Backend_php/PHP%20form%20validation/welcome1.php">Welcome1.php</a>
+--><a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/Backend_php/PHP%20form%20validation/welcome1.php">Welcome1.php</a>
 <br>
 <br>
 
