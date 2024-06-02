@@ -1,8 +1,8 @@
-<H4>PHP Form Validation<H4>
+<H4>PHP Form Validation<H4><br>
 
 Think SECURITY when processing PHP forms!
-<p>These pages will show how to process PHP forms with security in mind. Proper validation of form data is important to protect your form from hackers and spammers!</p>
-<br>
+
+These pages will show how to process PHP forms with security in mind. Proper validation of form data is important to protect your form from hackers and spammers!<br>
 <img src="form_validation.png" alt="form_validation_photo">
 <br>
 
@@ -38,9 +38,30 @@ Think SECURITY when processing PHP forms!
   </tr>
 </table>
 
+<h3>Define an HTML Table</h3>
+<p>A table in HTML consists of table cells inside rows and columns.</p>
+<h3>Example</h3>
+<p>A simple HTML table:</p>
 
-
-
+<pre>
+  <table>
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+  </table>
+</pre>
 
 
 
