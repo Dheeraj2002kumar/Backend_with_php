@@ -1,4 +1,4 @@
-<H1>PHP Form Validation<H1><br>
+<H4>PHP Form Validation<H4>
 
 Think SECURITY when processing PHP forms!
 <p>These pages will show how to process PHP forms with security in mind. Proper validation of form data is important to protect your form from hackers and spammers!</p>
