@@ -2,40 +2,5 @@
 
 <B>Think SECURITY when processing PHP forms!</B>
 <P>These pages will show how to process PHP forms with security in mind. Proper validation of form data is important to protect your form from hackers and spammers!</P>
-<!DOCTYPE HTML>  
-<html>
-<head>
-<style>
-.error {color: #FF0000;}
-</style>
-</head>
-<body>  
-
-
-<h2>PHP Form Validation Example</h2>
-<p><span class="error">* required field</span></p>
-<form method="post" action="/demo/demo_form_validation_complete.php">  
-  Name: <input type="text" name="name" value="">
-  <span class="error">* </span>
-  <br><br>
-  E-mail: <input type="text" name="email" value="">
-  <span class="error">* </span>
-  <br><br>
-  Website: <input type="text" name="website" value="">
-  <span class="error"></span>
-  <br><br>
-  Comment: <textarea name="comment" rows="5" cols="40"></textarea>
-  <br><br>
-  Gender:
-  <input type="radio" name="gender"  value="female">Female
-  <input type="radio" name="gender"  value="male">Male
-  <input type="radio" name="gender"  value="other">Other  
-  <span class="error">* </span>
-  <br><br>
-  <input type="submit" name="submit" value="Submit">  
-</form>
-
-<h2>Your Input:</h2><br><br><br><br>
-</body>
-</html>
+<img src="form_validation.png" alt="form_validation_photo">
 
