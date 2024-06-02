@@ -2,7 +2,9 @@ The PHP superglobals $_GET and $_POST are used to collect form-data.
 
 <h4>PHP - A Simple HTML Form<h4>
 The example below displays a simple HTML form with two input fields and a submit button:
-<a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/Backend_php/PHP%20form%20validation/form.html"> form.html</a>
+  <br>
+--><a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/Backend_php/PHP%20form%20validation/form.html"> form.html</a>
+<br>
 
 When the user fills out the form above and clicks the submit button, the form data is sent for processing to a PHP file named "welcome.php". The form data is sent with the HTTP POST method.
 
