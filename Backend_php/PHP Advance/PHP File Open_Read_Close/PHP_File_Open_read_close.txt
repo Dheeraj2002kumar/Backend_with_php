@@ -8,7 +8,7 @@ A better method to open files is with the fopen() function. This function gives 
 We will use the text file, "webdictionary.txt", during the lessons:
 
 *AJAX = Asynchronous JavaScript and XML
-CSS = Cascading Style Sheets
+**CSS = Cascading Style Sheets
 HTML = Hyper Text Markup Language
 PHP = PHP Hypertext Preprocessor
 SQL = Structured Query Language
