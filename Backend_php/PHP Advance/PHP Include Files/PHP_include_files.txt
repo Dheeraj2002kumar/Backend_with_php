@@ -88,10 +88,12 @@ Example
 Example 3
 Assume we have a file called "vars.php", with some variables defined:
 
+--------------------------------------------
 <?php
 $color='red';
 $car='BMW';
 ?>
+-------------------------------------------
 
 Then, if we include the "vars.php" file, the variables can be used in the calling file:
 
