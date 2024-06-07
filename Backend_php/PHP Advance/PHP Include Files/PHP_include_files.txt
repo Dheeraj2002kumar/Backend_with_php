@@ -68,6 +68,8 @@ echo '<a href="/default.asp">Home</a> -
 All pages in the Web site should use this menu file. Here is how it can be done (we are using a <div> element so that the menu easily can be styled with CSS later):
 
 Example
+
+----------------------------------------------
 <html>
 <body>
 
