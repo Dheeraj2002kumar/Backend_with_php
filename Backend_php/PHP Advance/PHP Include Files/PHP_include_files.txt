@@ -135,6 +135,7 @@ echo "I have a $color $car.";
 If we do the same example using the require statement, the echo statement will not be executed because the script execution dies after the require statement returned a fatal error:
 
 Example
+
 --------------------------------------------------
 <html>
 <body>
