@@ -98,6 +98,8 @@ $car='BMW';
 Then, if we include the "vars.php" file, the variables can be used in the calling file:
 
 Example
+
+------------------------------------------------
 <html>
 <body>
 
