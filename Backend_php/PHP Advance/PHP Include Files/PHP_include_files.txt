@@ -29,6 +29,7 @@ require 'filename';
 Example 1
 Assume we have a standard footer file called "footer.php", that looks like this:
 
+------------------------------------------------------------------------
 <?php
 echo "<p>Copyright &copy; 1999-" . date("Y") . " W3Schools.com</p>";
 ?>
