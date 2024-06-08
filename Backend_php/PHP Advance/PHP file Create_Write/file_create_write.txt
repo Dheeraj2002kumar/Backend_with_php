@@ -36,7 +36,7 @@ $txt = "Jane Doe\n";
 fwrite($myfile, $txt);
 fclose($myfile);
 ?>
-----------------------------------------------------------
+------------------------------------------------------------------
 
 Notice that we wrote to the file "newfile.txt" twice. Each time we wrote to the file we sent the string $txt that first contained "John Doe" and second contained "Jane Doe". After we finished writing, we closed the file using the fclose() function.
 
