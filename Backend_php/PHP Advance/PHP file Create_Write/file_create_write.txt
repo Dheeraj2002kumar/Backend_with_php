@@ -77,7 +77,7 @@ You can append data to a file by using the "a" mode. The "a" mode appends text t
 In the example below we open our existing file "newfile.txt", and append some text to it:
 
 Example
------------------------------------------------------------------------
+--------------------------------------------------------------------------
 <?php
 $myfile = fopen("newfile.txt", "a") or die("Unable to open file!");
 $txt = "Donald Duck\n";
