@@ -16,7 +16,7 @@ $myfile = fopen("testfile.txt", "w")
 
 **PHP File Permissions
 If you are having errors when trying to get this code to run, check that you have granted your PHP file access to write information to the hard drive.
---------------------------------------------------
+--------------------------------------------------------------------------------------
 
 **PHP Write to File - fwrite()
 The fwrite() function is used to write to a file.
