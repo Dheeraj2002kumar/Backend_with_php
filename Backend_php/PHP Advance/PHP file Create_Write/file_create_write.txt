@@ -52,7 +52,7 @@ Now that "newfile.txt" contains some data we can show what happens when we open 
 
 In the example below we open our existing file "newfile.txt", and write some new data into it:
 
-Example
+**Example
 --------------------------------------------------------------------
 <?php
 $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
