@@ -12,7 +12,7 @@ The example below creates a new file called "testfile.txt". The file will be cre
 **example
 ------------------------------------------
 $myfile = fopen("testfile.txt", "w")
-----------------------------------------
+------------------------------------------
 
 **PHP File Permissions
 If you are having errors when trying to get this code to run, check that you have granted your PHP file access to write information to the hard drive.
