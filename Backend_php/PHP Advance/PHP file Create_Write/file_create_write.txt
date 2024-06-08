@@ -25,8 +25,9 @@ The first parameter of fwrite() contains the name of the file to write to and th
 
 The example below writes a couple of names into a new file called "newfile.txt":
 
-Example
+**Example
 
+-----------------------------------------------------------
 <?php
 $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
 $txt = "John Doe\n";
