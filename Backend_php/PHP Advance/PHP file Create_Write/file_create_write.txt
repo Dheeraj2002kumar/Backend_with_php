@@ -10,6 +10,7 @@ If you use fopen() on a file that does not exist, it will create it, given that 
 The example below creates a new file called "testfile.txt". The file will be created in the same directory where the PHP code resides:
 
 **example
+
 ------------------------------------------
 $myfile = fopen("testfile.txt", "w")
 ------------------------------------------
