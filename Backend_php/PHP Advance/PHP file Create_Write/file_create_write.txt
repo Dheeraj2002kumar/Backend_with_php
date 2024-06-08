@@ -1,6 +1,7 @@
 **PHP File Create/Write
 
 how to create and write to a file on the server.
+---------------------------------------------------------------
 
 **PHP Create File - fopen()
 The fopen() function is also used to create a file. Maybe a little confusing, but in PHP, a file is created using the same function used to open files.
