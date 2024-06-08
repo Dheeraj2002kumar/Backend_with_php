@@ -86,7 +86,7 @@ $txt = "Goofy Goof\n";
 fwrite($myfile, $txt);
 fclose($myfile);
 ?>
-----------------------------------------------------------------------
+-------------------------------------------------------------------------
 
 If we now open the "newfile.txt" file, we will see that Donald Duck and Goofy Goof is appended to the end of the file:
 
