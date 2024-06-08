@@ -42,10 +42,10 @@ Notice that we wrote to the file "newfile.txt" twice. Each time we wrote to the 
 
 If we open the "newfile.txt" file it would look like this:
 
----------------------------
+--------------
 John Doe
 Jane Doe
---------------------------
+--------------
 
 **PHP Overwriting
 Now that "newfile.txt" contains some data we can show what happens when we open an existing file for writing. All the existing data will be ERASED and we start with an empty file.
