@@ -8,9 +8,9 @@
 A cookie is created with the setcookie() function.
 
 Syntax
------------------------------------------------------------------
+--------------------------------------------------------------------
 setcookie(name, value, expire, path, domain, secure, httponly);
----------------------------------------
+--------------------------------------------------------------------
 
 Only the name parameter is required. All other parameters are optional.
 
