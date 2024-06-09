@@ -8,7 +8,7 @@
 A cookie is created with the setcookie() function.
 
 Syntax
----------------------------------------
+-----------------------------------------------------------------
 setcookie(name, value, expire, path, domain, secure, httponly);
 ---------------------------------------
 
