@@ -43,9 +43,12 @@ if(!isset($_COOKIE[$cookie_name])) {
 </html>
 -------------------------------------------------------------------------------------------------
 
-**Note: The setcookie() function must appear BEFORE the <html> tag.
+_______________________________________________________________________|
+**Note: The setcookie() function must appear BEFORE the <html> tag.    |
+_______________________________________________________________________|
 
 Note: The value of the cookie is automatically URLencoded when sending the cookie, and automatically decoded when received (to prevent URLencoding, use setrawcookie() instead).
+
 
 **Modify a Cookie Value
 To modify a cookie, just set (again) the cookie using the setcookie() function:
