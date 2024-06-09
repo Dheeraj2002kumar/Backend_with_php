@@ -16,7 +16,7 @@ file_uploads = On
 **Create The HTML Form
 Next, create an HTML form that allow users to choose the image file they want to upload:
 
-------------------------------------------------------------
+-----------------------------------------------------------------------
 <!DOCTYPE html>
 <html>
 <body>
