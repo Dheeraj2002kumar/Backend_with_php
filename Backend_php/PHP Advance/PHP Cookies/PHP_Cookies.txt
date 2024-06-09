@@ -48,7 +48,8 @@ _______________________________________________________________________|
 _______________________________________________________________________|
 
 Note: The value of the cookie is automatically URLencoded when sending the cookie, and automatically decoded when received (to prevent URLencoding, use setrawcookie() instead).
-
+____________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________
 
 **Modify a Cookie Value
 To modify a cookie, just set (again) the cookie using the setcookie() function:
