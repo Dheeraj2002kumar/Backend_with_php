@@ -43,7 +43,7 @@ Other things to notice:
 
 The form above sends data to a file called "upload.php", which we will create next.
 ---------------------------------------------------------------------------------------------------
-
+---------------------------------------------------------------------------------------------------
 
 **Create The Upload File PHP Script
 The "upload.php" file contains the code for uploading a file:
