@@ -42,6 +42,8 @@ Other things to notice:
     --> The type="file" attribute of the <input> tag shows the input field as a file-select control, with a "Browse" button next to the input control
 
 The form above sends data to a file called "upload.php", which we will create next.
+---------------------------------------------------------------------------------------------------
+
 
 **Create The Upload File PHP Script
 The "upload.php" file contains the code for uploading a file:
