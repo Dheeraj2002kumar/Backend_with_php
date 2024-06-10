@@ -78,7 +78,7 @@ echo "Favorite animal is " . $_SESSION["favanimal"] . ".";
 Another way to show all the session variable values for a user session is to run the following code:
 
 Example
----------------------------------------------------------------
+------------------------------------------------------------------------
 <?php
 session_start();
 ?>
