@@ -44,8 +44,8 @@ echo "Session variables are set.";
 </body>
 </html>
 ----------------------------------------------------------------
-
 **Note: The session_start() function must be the very first thing in your document. Before any HTML tags.
+__________________________________________________________________________________________________________
 
 **Get PHP Session Variable Values
 --> Next, we create another page called "demo_session2.php". From this page, we will access the session information we set on the first page ("demo_session1.php").
