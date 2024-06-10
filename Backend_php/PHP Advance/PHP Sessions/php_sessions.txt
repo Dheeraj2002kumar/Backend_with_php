@@ -128,7 +128,7 @@ ________________________________________________________________________________
 To remove all global session variables and destroy the session, use session_unset() and session_destroy():
 
 Example
----------------------------------------------------------------
+------------------------------------------------------------------
 <?php
 session_start();
 ?>
