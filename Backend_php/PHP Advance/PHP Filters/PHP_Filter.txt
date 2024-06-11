@@ -1,4 +1,5 @@
 **PHP Filters
+_________________________________________________________________________________
 
 Validating data = Determine if the data is in proper form.
 
