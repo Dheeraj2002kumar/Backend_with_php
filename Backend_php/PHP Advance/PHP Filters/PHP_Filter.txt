@@ -37,7 +37,7 @@ Many web applications receive external input. External input/data can be:
   > Web services data
   > Server variables
   > Database query results
-
+__________________________________________________________________________________
 **You should always validate external data!
 Invalid submitted data can lead to security problems and break your webpage!
 By using PHP filters you can be sure your application gets the correct input!
