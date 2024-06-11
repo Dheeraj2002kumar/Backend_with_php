@@ -143,6 +143,7 @@ ________________________________________________________________________________
 The following example uses the filter_var() function to first remove all illegal characters from a URL, then check if $url is a valid URL:
 
 Example
+----------------------------------------------------------------------------------
 <?php
 $url = "https://github.com/Dheeraj2002kumar/";
 
