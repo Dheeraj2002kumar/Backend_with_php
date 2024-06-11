@@ -137,6 +137,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
 }
 ?>
 ----------------------------------------------------------------------------------
+__________________________________________________________________________________
 
 **Sanitize and Validate a URL
 The following example uses the filter_var() function to first remove all illegal characters from a URL, then check if $url is a valid URL:
