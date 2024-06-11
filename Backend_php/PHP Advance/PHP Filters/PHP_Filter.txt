@@ -116,6 +116,7 @@ if (!filter_var($ip, FILTER_VALIDATE_IP) === false) {
 }
 ?>
 ----------------------------------------------------------------------------------
+__________________________________________________________________________________
 
 **Sanitize and Validate an Email Address
 The following example uses the filter_var() function to first remove all illegal characters from the $email variable, then check if it is a valid email address:
