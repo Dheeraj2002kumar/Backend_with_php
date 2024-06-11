@@ -27,6 +27,7 @@ Example
   ?>
 </table>
 ----------------------------------------------------------------------------------
+__________________________________________________________________________________
 
 **Why Use Filters?
 Many web applications receive external input. External input/data can be:
