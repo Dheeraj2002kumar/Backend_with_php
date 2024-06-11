@@ -122,6 +122,7 @@ ________________________________________________________________________________
 The following example uses the filter_var() function to first remove all illegal characters from the $email variable, then check if it is a valid email address:
 
 Example
+----------------------------------------------------------------------------------
 <?php
 $email = "john.doe@example.com";
 
