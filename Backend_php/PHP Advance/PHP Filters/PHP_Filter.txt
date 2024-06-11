@@ -105,6 +105,7 @@ ________________________________________________________________________________
 The following example uses the filter_var() function to check if the variable $ip is a valid IP address:
 
 Example
+----------------------------------------------------------------------------------
 <?php
 $ip = "127.0.0.1";
 
