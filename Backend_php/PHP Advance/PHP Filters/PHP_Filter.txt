@@ -32,7 +32,7 @@ ________________________________________________________________________________
 **Why Use Filters?
 Many web applications receive external input. External input/data can be:
 
-  User input from a form
+  > User input from a form
   Cookies
   Web services data
   Server variables
