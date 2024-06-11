@@ -88,6 +88,7 @@ if (!filter_var($int, FILTER_VALIDATE_INT) === false) {
 In the example above, if $int was set to 0, the function above will return "Integer is not valid". To solve this problem, use the code below:
 
 Example
+----------------------------------------------------------------------------------
 <?php
 $int = 0;
 
