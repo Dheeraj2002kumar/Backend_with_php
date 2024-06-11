@@ -33,7 +33,7 @@ ________________________________________________________________________________
 Many web applications receive external input. External input/data can be:
 
   > User input from a form
-  Cookies
+  > Cookies
   Web services data
   Server variables
   Database query results
