@@ -36,7 +36,7 @@ Many web applications receive external input. External input/data can be:
   > Cookies
   > Web services data
   > Server variables
-  Database query results
+  > Database query results
 
 **You should always validate external data!
 Invalid submitted data can lead to security problems and break your webpage!
