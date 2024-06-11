@@ -44,6 +44,7 @@ By using PHP filters you can be sure your application gets the correct input!
 __________________________________________________________________________________
 
 ----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
 
 **PHP filter_var() Function
 The filter_var() function both validate and sanitize data.
