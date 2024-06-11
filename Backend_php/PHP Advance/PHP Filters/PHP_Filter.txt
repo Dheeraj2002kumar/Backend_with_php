@@ -14,6 +14,7 @@ The PHP filter extension has many of the functions needed for checking user inpu
 The filter_list() function can be used to list what the PHP filter extension offers:
 
 Example
+
 <table>
   <tr>
     <td>Filter Name</td>
