@@ -99,6 +99,7 @@ if (filter_var($int, FILTER_VALIDATE_INT) === 0 || !filter_var($int, FILTER_VALI
 }
 ?>
 ----------------------------------------------------------------------------------
+__________________________________________________________________________________
 
 **Validate an IP Address
 The following example uses the filter_var() function to check if the variable $ip is a valid IP address:
