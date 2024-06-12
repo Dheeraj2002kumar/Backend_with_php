@@ -8,7 +8,7 @@ Example <a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/
 _______________________________________________________________________________________________________________________________________
 
 #### Validate IPv6 Address
-The following example uses the filter_var() function to check if the variable $ip is a valid IPv6 address:
+- The following example uses the filter_var() function to check if the variable $ip is a valid IPv6 address:
 
 Example <a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/Backend_php/PHP%20Advance/PHP%20Filters%20Advanced/Validate%20IPv6%20Address/solution.php">Go to the program</a>
 _____________________________________________________________________________________________________________________________________
