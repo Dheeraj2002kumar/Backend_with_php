@@ -14,7 +14,7 @@ Example <a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/
 _____________________________________________________________________________________________________________________________________
 
 #### Validate URL - Must Contain QueryString
-The following example uses the filter_var() function to check if the variable $url is a URL with a querystring:
+- The following example uses the filter_var() function to check if the variable $url is a URL with a querystring:
 
 Example <a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/Backend_php/PHP%20Advance/PHP%20Filters%20Advanced/Validate%20URL%20-%20Must%20Contain%20QueryString/solution.php">Go to the program</a>
 __________________________________________________________________________________________________________________________________
