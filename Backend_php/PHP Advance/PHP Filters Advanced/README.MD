@@ -20,6 +20,6 @@ Example <a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/
 __________________________________________________________________________________________________________________________________
 
 #### Remove Characters With ASCII Value > 127
-The following example uses the filter_var() function to sanitize a string. It will both remove all HTML tags, and all characters with ASCII value > 127, from the string:
+- The following example uses the filter_var() function to sanitize a string. It will both remove all HTML tags, and all characters with ASCII value > 127, from the string:
 
 Example <a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/Backend_php/PHP%20Advance/PHP%20Filters%20Advanced/Remove%20Characters%20With%20ASCII%20Value%20--%20127/solution.php">Go to the program</a>
