@@ -1,4 +1,4 @@
-### PHP Filters Advanced
+## PHP Filters Advanced
 ____________________________
 
 ### Validate an Integer Within a Range
