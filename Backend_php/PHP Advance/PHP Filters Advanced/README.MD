@@ -1,4 +1,5 @@
 #### PHP Filters Advanced
+____________________________
 
 #### Validate an Integer Within a Range
 The following example uses the filter_var() function to check if a variable is both of type INT, and between 1 and 200:
