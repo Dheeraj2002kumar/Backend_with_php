@@ -1,0 +1,6 @@
+**Callbacks in User Defined Functions
+
+User-defined functions and methods can also take callback functions as arguments. To use callback functions inside a user-defined function or method, call it by adding parentheses to the variable and pass arguments as with normal functions:
+
+Example
+Run a callback from a user-defined function:
