@@ -17,6 +17,7 @@ $strings = ["apple", "orange", "banana", "coconut"];
 $lengths = array_map("my_callback", $strings);
 print_r($lengths);
 ?>
+__________________________________________________________________________________________
 
 Starting with version 7, PHP can pass anonymous functions as callback functions:
 
