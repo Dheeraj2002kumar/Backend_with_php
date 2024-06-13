@@ -1,0 +1,1 @@
+Use an anonymous function as a callback for PHP's array_map() function:
