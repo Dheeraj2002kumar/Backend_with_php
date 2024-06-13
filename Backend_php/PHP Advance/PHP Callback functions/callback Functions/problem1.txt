@@ -1,0 +1,1 @@
+Pass a callback to PHP's array_map() function to calculate the length of every string in an array:
