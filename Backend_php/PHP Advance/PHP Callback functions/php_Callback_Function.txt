@@ -7,7 +7,7 @@ Any existing function can be used as a callback function. To use a function as a
 
 Example
 Pass a callback to PHP's array_map() function to calculate the length of every string in an array:
-
+__________________________________________________________________________________________
 <?php
 function my_callback($item) {
   return strlen($item);
