@@ -23,7 +23,7 @@ Starting with version 7, PHP can pass anonymous functions as callback functions:
 
 Example
 Use an anonymous function as a callback for PHP's array_map() function:
-
+__________________________________________________________________________________________
 <?php
 $strings = ["apple", "orange", "banana", "coconut"];
 $lengths = array_map( function($item) { return strlen($item); } , $strings);
