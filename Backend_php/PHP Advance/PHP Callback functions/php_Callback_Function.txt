@@ -36,6 +36,7 @@ User-defined functions and methods can also take callback functions as arguments
 Example
 Run a callback from a user-defined function:
 
+__________________________________________________________________________________________
 <?php
 function exclaim($str) {
   return $str . "! ";
