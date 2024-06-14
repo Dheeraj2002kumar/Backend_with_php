@@ -21,7 +21,7 @@ The json_encode() function is used to encode a value to JSON format.
 
 Example
 This example shows how to encode an associative array into a JSON object:
-
+____________________________________________________________________________
 <?php
 $age = array("Peter"=>35, "Ben"=>37, "Joe"=>43);
 
