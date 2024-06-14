@@ -1,0 +1,1 @@
+This example shows how to loop through the values of a PHP associative array:
