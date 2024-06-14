@@ -116,6 +116,7 @@ foreach($obj as $key => $value) {
   echo $key . " => " . $value . "<br>";
 }
 ?>
+-----------------------------------------------------------
 
 Example
 This example shows how to loop through the values of a PHP associative array:
