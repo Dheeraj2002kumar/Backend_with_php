@@ -73,7 +73,7 @@ Here are two examples of how to access the decoded values from an object and fro
 
 Example
 This example shows how to access the values from a PHP object:
-
+-------------------------------------------------------------
 <?php
 $jsonobj = '{"Peter":35,"Ben":37,"Joe":43}';
 
