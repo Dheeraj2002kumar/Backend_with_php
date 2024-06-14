@@ -106,6 +106,7 @@ You can also loop through the values with a foreach() loop:
 Example
 This example shows how to loop through the values of a PHP object:
 
+------------------------------------------------------------
 <?php
 $jsonobj = '{"Peter":35,"Ben":37,"Joe":43}';
 
