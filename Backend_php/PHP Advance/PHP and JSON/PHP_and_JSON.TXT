@@ -31,12 +31,13 @@ ___________________________________________________________________________
 
 Example
 This example shows how to encode an indexed array into a JSON array:
-
+--------------------------------------------------------
 <?php
 $cars = array("Volvo", "BMW", "Toyota");
 
 echo json_encode($cars);
 ?>
+---------------------------------------------------------------
 
 **PHP - json_decode()
 The json_decode() function is used to decode a JSON object into a PHP object or an associative array.
