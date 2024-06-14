@@ -65,6 +65,7 @@ $jsonobj = '{"Peter":35,"Ben":37,"Joe":43}';
 
 var_dump(json_decode($jsonobj, true));
 ?>
+-----------------------------------------------------------------
 
 **PHP - Accessing the Decoded Values
 Here are two examples of how to access the decoded values from an object and from an associative array:
