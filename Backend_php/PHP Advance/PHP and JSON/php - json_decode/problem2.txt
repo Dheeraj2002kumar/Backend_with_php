@@ -1,0 +1,1 @@
+This example decodes JSON data into a PHP associative array:
