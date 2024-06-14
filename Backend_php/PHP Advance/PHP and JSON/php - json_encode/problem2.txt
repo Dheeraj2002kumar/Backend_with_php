@@ -1,0 +1,1 @@
+This example shows how to encode an indexed array into a JSON array:
