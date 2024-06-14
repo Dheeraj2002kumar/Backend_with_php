@@ -12,8 +12,8 @@ PHP has some built-in functions to handle JSON.
 
 First, we will look at the following two functions:
 
-  json_encode()
-  json_decode()
+  *json_encode()
+  *json_decode()
 
 **PHP - json_encode()
 The json_encode() function is used to encode a value to JSON format.
