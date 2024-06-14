@@ -83,6 +83,7 @@ echo $obj->Peter;
 echo $obj->Ben;
 echo $obj->Joe;
 ?>
+---------------------------------------------------------------
 
 Example
 This example shows how to access the values from a PHP associative array:
