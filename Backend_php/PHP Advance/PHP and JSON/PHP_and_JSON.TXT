@@ -59,6 +59,7 @@ The json_decode() function returns an object by default. The json_decode() funct
 Example
 This example decodes JSON data into a PHP associative array:
 
+---------------------------------------------------------------
 <?php
 $jsonobj = '{"Peter":35,"Ben":37,"Joe":43}';
 
