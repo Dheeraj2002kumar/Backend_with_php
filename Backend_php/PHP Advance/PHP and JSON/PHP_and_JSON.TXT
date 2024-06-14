@@ -97,7 +97,8 @@ echo $arr["Peter"];
 echo $arr["Ben"];
 echo $arr["Joe"];
 ?>
----------------------------------------------------------
+----------------------------------------------------------
+___________________________________________________________
 
 **PHP - Looping Through the Values
 You can also loop through the values with a foreach() loop:
