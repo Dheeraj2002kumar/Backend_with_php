@@ -38,6 +38,7 @@ $cars = array("Volvo", "BMW", "Toyota");
 echo json_encode($cars);
 ?>
 ---------------------------------------------------------------
+_______________________________________________________________________
 
 **PHP - json_decode()
 The json_decode() function is used to decode a JSON object into a PHP object or an associative array.
