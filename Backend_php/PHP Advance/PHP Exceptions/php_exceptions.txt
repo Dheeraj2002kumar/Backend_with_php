@@ -139,6 +139,7 @@ The Exception Object contains information about the error or unexpected behaviou
 --------------------------------------
 new Exception(message, code, previous)
 ----------------------------------------
+_____________________________________________
 
 **Parameter Values
 
