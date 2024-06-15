@@ -92,6 +92,7 @@ try {
 Example
 Show a message when an exception is thrown and then indicate that the process has ended:
 
+----------------------------------------------------------------
 <?php
 function divide($dividend, $divisor) {
   if($divisor == 0) {
