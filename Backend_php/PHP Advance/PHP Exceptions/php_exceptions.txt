@@ -161,6 +161,7 @@ getCode()     	==>   Returns the exception code
 getFile()      	==>   Returns the full path of the file in which the exception was thrown
 getLine()     	==>   Returns the line number of the line of code which threw the exception
 
+________________________________________________________
 Example
 Output information about an exception that was thrown:
 
