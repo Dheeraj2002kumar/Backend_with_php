@@ -130,6 +130,7 @@ try {
 }
 ?>
 ----------------------------------------------------------------
+____________________________________________________________________________________
 
 **The Exception Object
 The Exception Object contains information about the error or unexpected behaviour that the function encountered.
