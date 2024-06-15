@@ -162,6 +162,7 @@ getLine()     	==>   Returns the line number of the line of code which threw the
 Example
 Output information about an exception that was thrown:
 
+----------------------------------------------------------------
 <?php
 function divide($dividend, $divisor) {
   if($divisor == 0) {
