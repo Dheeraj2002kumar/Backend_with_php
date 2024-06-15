@@ -148,6 +148,7 @@ Parameter       	Description
 message	   ==>  Optional. A string describing why the exception was thrown
 code	     ==>  Optional. An integer that can be used to easily distinguish this exception from others of the same type
 previous	 ==>  Optional. If this exception was thrown in a catch block of another exception, it is recommended to pass that exception into this parameter
+______________________________________________________
 
 **Methods
 When catching an exception, the following table shows some of the methods that can be used to get information about the exception:
