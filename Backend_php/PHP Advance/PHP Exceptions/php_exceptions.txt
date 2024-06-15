@@ -55,6 +55,7 @@ try {
 Example
 Show a message when an exception is thrown:
 
+-----------------------------------------------
 <?php
 function divide($dividend, $divisor) {
   if($divisor == 0) {
