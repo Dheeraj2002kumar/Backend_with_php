@@ -114,6 +114,7 @@ try {
 Example
 Output a string even if an exception was not caught:
 
+----------------------------------------------------------------
 <?php
 function divide($dividend, $divisor) {
   if($divisor == 0) {
