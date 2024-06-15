@@ -1,4 +1,5 @@
 **PHP Exceptions
+_________________________________________________________________________________________________
 
 **What is an Exception?
 An exception is an object that describes an error or unexpected behaviour of a PHP script.
