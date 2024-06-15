@@ -109,6 +109,7 @@ try {
   echo "Process complete.";
 }
 ?>
+----------------------------------------------------------------
 
 Example
 Output a string even if an exception was not caught:
