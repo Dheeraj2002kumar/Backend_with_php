@@ -31,7 +31,7 @@ function divide($dividend, $divisor) {
 
 echo divide(5, 0);
 ?>
-
+-------------------------------------------------------
 The result will look something like this:
 
 -------------------------------------------------
