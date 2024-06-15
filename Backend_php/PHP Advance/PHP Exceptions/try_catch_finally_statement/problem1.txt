@@ -1,0 +1,12 @@
+Syntax
+try {
+  code that can throw exceptions
+} catch(Exception $e) {
+  code that runs when an exception is caught
+} finally {
+  code that always runs regardless of whether an exception was caught
+}
+
+Example
+Show a message when an exception is thrown and then indicate that the process has ended:
+
