@@ -20,6 +20,7 @@ Lets try to throw an exception without catching it:
 
 example
 
+--------------------------------------------------------
 <?php
 function divide($dividend, $divisor) {
   if($divisor == 0) {
