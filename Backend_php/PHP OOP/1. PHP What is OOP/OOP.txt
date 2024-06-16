@@ -1,4 +1,5 @@
 PHP - What is OOP?
+________________________________________________________________________________________________
 From PHP5, you can also write PHP code in an object-oriented style.
 
 Object-Oriented programming is faster and easier to execute.
