@@ -166,6 +166,7 @@ echo $apple->name;
 You can use the instanceof keyword to check if an object belongs to a specific class:
 
 Example
+-------------------------------------
 <?php
 $apple = new Fruit();
 var_dump($apple instanceof Fruit);
