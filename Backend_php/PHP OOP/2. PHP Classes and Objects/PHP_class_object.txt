@@ -150,6 +150,7 @@ echo $apple->name;
 **2. Outside the class (by directly changing the property value):
 
 Example
+----------------------------------------
 <?php
 class Fruit {
   public $name;
