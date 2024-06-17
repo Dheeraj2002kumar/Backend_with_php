@@ -1,0 +1,1 @@
+ we add two more methods to class Fruit, for setting and getting the $color property:
