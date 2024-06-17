@@ -1,0 +1,1 @@
+$apple and $banana are instances of the class Fruit:
