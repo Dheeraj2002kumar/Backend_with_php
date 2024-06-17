@@ -110,6 +110,7 @@ echo "Name: " . $apple->get_name();
 echo "<br>";
 echo "Color: " . $apple->get_color();
 ?>
+------------------------------------------------------------
 
 **PHP - The $this Keyword
 The $this keyword refers to the current object, and is only available inside methods.
