@@ -163,7 +163,7 @@ $apple->name = "Apple";
 echo $apple->name;
 ?>
 ----------------------------------
-
+___________________________________________________________
 **PHP - instanceof
 You can use the instanceof keyword to check if an object belongs to a specific class:
 
