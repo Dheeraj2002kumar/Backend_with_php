@@ -52,6 +52,7 @@ Objects of a class are created using the new keyword.
 In the example below, $apple and $banana are instances of the class Fruit:
 
 **Example
+----------------------------------------------------
 <?php
 class Fruit {
   // Properties
