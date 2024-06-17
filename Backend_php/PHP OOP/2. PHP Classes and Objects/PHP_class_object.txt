@@ -1,4 +1,5 @@
 **PHP OOP - Classes and Objects
+__________________________________________________________________________________
 
 A class is a template for objects, and an object is an instance of class.
 
