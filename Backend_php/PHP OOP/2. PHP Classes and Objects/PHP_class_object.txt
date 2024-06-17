@@ -118,6 +118,7 @@ The $this keyword refers to the current object, and is only available inside met
 Look at the following example:
 
 Example
+-----------------------------------------------------------
 <?php
 class Fruit {
   public $name;
