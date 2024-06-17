@@ -151,6 +151,7 @@ echo $apple->name;
 
 Example
 ----------------------------------------
+
 <?php
 class Fruit {
   public $name;
