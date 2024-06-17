@@ -39,6 +39,7 @@ class Fruit {
   }
 }
 ?>
+---------------------------------------------------
 
 **Note: In a class, variables are called properties and functions are called methods!
 
