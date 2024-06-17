@@ -145,6 +145,7 @@ $apple->set_name("Apple");
 
 echo $apple->name;
 ?>
+------------------------------------------
 
 **2. Outside the class (by directly changing the property value):
 
