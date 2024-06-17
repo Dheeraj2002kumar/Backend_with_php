@@ -1,0 +1,14 @@
+<?php
+class Fruit {
+  public $name;
+}
+$apple = new Fruit();
+?>
+
+So, where can we change the value of the $name property? There are two ways:
+
+1. Inside the class (by adding a set_name() method and use $this):
+-->refers solution1.php
+
+2. Outside the class (by directly changing the property value):
+-->refers solution2.php
