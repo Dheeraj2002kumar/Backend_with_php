@@ -132,6 +132,7 @@ So, where can we change the value of the $name property? There are two ways:
 **1. Inside the class (by adding a set_name() method and use $this):
 
 Example
+------------------------------------------
 <?php
 class Fruit {
   public $name;
