@@ -2,6 +2,7 @@
 __________________________________________________________________________________
 
 A class is a template for objects, and an object is an instance of class.
+____________________________________________________________________________________
 
 **OOP Case
 Let's assume we have a class named Fruit. A Fruit can have properties like name, color, weight, etc. We can define variables like $name, $color, and $weight to hold the values of these properties.
