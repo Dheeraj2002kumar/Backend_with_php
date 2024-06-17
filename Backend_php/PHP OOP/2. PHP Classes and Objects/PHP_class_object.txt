@@ -125,6 +125,7 @@ class Fruit {
 }
 $apple = new Fruit();
 ?>
+---------------------------------------------------------
 
 So, where can we change the value of the $name property? There are two ways:
 
