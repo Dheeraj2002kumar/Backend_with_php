@@ -1,4 +1,5 @@
 **PHP OOP - Constructor
+______________________________________________________________________________
 
 **PHP - The __construct Function
 A constructor allows you to initialize an object's properties upon creation of the object.
