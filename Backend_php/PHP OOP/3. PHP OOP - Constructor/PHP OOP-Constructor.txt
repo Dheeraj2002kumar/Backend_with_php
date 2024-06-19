@@ -28,7 +28,7 @@ class Fruit {
 $apple = new Fruit("Apple");
 echo $apple->get_name();
 ?>
-
+-------------------------------------------------
 **Another example:
 
 Example
