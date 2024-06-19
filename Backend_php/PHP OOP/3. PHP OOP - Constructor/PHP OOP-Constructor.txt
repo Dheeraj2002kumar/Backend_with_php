@@ -11,7 +11,7 @@ Notice that the construct function starts with two underscores (__)!
 We see in the example below, that using a constructor saves us from calling the set_name() method which reduces the amount of code:
 
 Example
------------------------------------------------
+----------------------------------------------
 <?php
 class Fruit {
   public $name;
