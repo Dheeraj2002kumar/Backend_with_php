@@ -29,7 +29,7 @@ $apple = new Fruit("Apple");
 -----------------------------------------------------
 
 **Another example:
-
+====================
 Example
 <?php
 class Fruit {
