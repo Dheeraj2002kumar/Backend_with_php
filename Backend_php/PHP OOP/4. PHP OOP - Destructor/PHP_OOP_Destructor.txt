@@ -47,5 +47,5 @@ class Fruit {
 
 $apple = new Fruit("Apple", "red");
 ?>
-
+------------------------------------------------------------------------------------------
 Tip: As constructors and destructors helps reducing the amount of code, they are very useful!
