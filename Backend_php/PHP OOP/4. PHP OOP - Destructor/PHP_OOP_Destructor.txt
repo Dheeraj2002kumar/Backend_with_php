@@ -1,6 +1,6 @@
 **PHP OOP - Destructor
 _____________________________________
-
+_____________________________________
 **PHP - The __destruct Function
 A destructor is called when the object is destructed or the script is stopped or exited.
 
