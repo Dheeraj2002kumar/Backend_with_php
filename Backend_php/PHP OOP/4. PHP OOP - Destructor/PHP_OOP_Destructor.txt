@@ -13,7 +13,7 @@ Notice that the destruct function starts with two underscores (__)!
 The example below has a __construct() function that is automatically called when you create an object from a class, and a __destruct() function that is automatically called at the end of the script:
 
 Example
------------------------------------------------------------------
+---------------------------------------------------------------
 class Fruit {
   public $name;
   public $color;
