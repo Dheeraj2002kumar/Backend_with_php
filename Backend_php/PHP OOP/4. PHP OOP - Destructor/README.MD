@@ -3,4 +3,4 @@ It has a __construct() function that is automatically called when you create an 
 <br>
 <hr>
 Another example:<br>
-<a href="">Go to the code</a>
+<a href="https://github.com/Dheeraj2002kumar/Backend_with_php/blob/main/Backend_php/PHP%20OOP/4.%20PHP%20OOP%20-%20Destructor/destructor2.php">Go to the code</a>
