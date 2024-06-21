@@ -3,7 +3,7 @@
 
 ---------------------------
 **PHP - Access Modifiers
-________________________________
+===========================
 Properties and methods can have access modifiers which control where they can be accessed.
 
 There are three access modifiers:
