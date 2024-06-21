@@ -1,5 +1,5 @@
 **PHP OOP - Access Modifiers
-_______
+===============================
 
 **PHP - Access Modifiers
 Properties and methods can have access modifiers which control where they can be accessed.
