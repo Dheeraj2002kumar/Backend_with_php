@@ -30,6 +30,7 @@ $mango->name = 'Mango'; // OK
 $mango->color = 'Yellow'; // ERROR
 $mango->weight = '300'; // ERROR
 ?>
+------------------------------------------------------
 
 In the next example we have added access modifiers to two functions. Here, if you try to call the set_color() or the set_weight() function it will result in a fatal error (because the two functions are considered protected and private), even if all the properties are public:
 
