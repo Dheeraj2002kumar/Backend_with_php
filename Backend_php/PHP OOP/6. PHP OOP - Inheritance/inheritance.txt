@@ -37,6 +37,7 @@ $strawberry->message();
 $strawberry->intro();
 ?>
 --------------------------------------------------------
+
 **Example Explained
 The Strawberry class is inherited from the Fruit class.
 
