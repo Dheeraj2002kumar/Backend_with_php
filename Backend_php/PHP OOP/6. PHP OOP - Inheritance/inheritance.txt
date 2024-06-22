@@ -1,4 +1,5 @@
 **PHP OOP - Inheritance
+===========================
 
 **PHP - What is Inheritance?
 Inheritance in OOP = When a class derives from another class.
