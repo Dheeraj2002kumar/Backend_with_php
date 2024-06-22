@@ -113,7 +113,7 @@ class Strawberry extends Fruit {
 $strawberry = new Strawberry("Strawberry", "red"); // OK. __construct() is public
 $strawberry->message(); // OK. message() is public and it calls intro() (which is protected) from within the derived class
 ?>
-
+-----------------------------------------------------------------------------------------------------------------------------------------
 In the example above we see that all works fine! It is because we call the protected method (intro()) from inside the derived class.
 
 **PHP - Overriding Inherited Methods
