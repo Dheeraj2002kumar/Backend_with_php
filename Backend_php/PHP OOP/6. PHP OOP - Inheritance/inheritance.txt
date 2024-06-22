@@ -88,7 +88,7 @@ In the example above we see that if we try to call a protected method (intro()) 
 Let's look at another example:
 
 Example
-
+------------------------------------------------------------------------
 <?php
 class Fruit {
   public $name;
