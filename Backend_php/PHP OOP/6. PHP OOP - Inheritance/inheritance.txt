@@ -179,7 +179,7 @@ class Strawberry extends Fruit {
 The following example shows how to prevent method overriding:
 
 Example
-
+----------------------------------------------
 <?php
 class Fruit {
   final public function intro() {
