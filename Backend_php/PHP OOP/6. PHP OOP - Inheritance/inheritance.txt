@@ -56,7 +56,7 @@ In the previous chapter we learned that protected properties or methods can be a
 Let's look at an example:
 
 Example
-
+------------------------------------------------------------
 <?php
 class Fruit {
   public $name;
