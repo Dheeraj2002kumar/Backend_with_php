@@ -39,6 +39,7 @@ $strawberry->intro();
 --------------------------------------------------------
 
 **Example Explained
+=========================
 The Strawberry class is inherited from the Fruit class.
 
 This means that the Strawberry class can use the public $name and $color properties as well as the public __construct() and intro() methods from the Fruit class because of inheritance.
