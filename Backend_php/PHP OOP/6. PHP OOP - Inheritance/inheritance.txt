@@ -12,6 +12,7 @@ An inherited class is defined by using the extends keyword.
 Let's look at an example:
 
 Example
+
 <?php
 class Fruit {
   public $name;
