@@ -125,6 +125,7 @@ Inherited methods can be overridden by redefining the methods (use the same name
 Look at the example below. The __construct() and intro() methods in the child class (Strawberry) will override the __construct() and intro() methods in the parent class (Fruit):
 
 Example
+-------------------------------------------------------------------------------
 <?php
 class Fruit {
   public $name;
