@@ -14,7 +14,7 @@ Class constants are case-sensitive. However, it is recommended to name the const
 We can access a constant from outside the class by using the class name followed by the scope resolution operator (::) followed by the constant name, like here:
 
 Example
---------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 <?php
 class Goodbye {
   const LEAVING_MESSAGE = "Thank you for visiting W3Schools.com!";
