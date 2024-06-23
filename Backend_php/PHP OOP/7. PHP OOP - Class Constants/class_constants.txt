@@ -1,4 +1,5 @@
 **PHP OOP - Class Constants
+============================
 
 **PHP - Class Constants
 Class constants can be useful if you need to define some constant data within a class.
