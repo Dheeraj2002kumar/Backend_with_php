@@ -22,7 +22,7 @@ class Goodbye {
 
 echo Goodbye::LEAVING_MESSAGE;
 ?>
----------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
 Or, we can access a constant from inside the class by using the self keyword followed by the scope resolution operator (::) followed by the constant name, like here:
 
 Example
