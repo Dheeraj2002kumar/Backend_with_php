@@ -80,6 +80,7 @@ The Audi, Volvo, and Citroen classes are inherited from the Car class. This mean
 
 But, intro() is an abstract method that should be defined in all the child classes and they should return a string.
 
+
 **PHP - More Abstract Class Examples
 Let's look at another example where the abstract method has an argument:
 
