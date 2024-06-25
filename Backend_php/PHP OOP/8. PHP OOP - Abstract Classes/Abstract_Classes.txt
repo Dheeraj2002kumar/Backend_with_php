@@ -79,7 +79,7 @@ _______________________
 The Audi, Volvo, and Citroen classes are inherited from the Car class. This means that the Audi, Volvo, and Citroen classes can use the public $name property as well as the public __construct() method from the Car class because of inheritance.
 
 But, intro() is an abstract method that should be defined in all the child classes and they should return a string.
-
+______________________________________________________________________________________________________________________________________________________
 
 **PHP - More Abstract Class Examples
 Let's look at another example where the abstract method has an argument:
