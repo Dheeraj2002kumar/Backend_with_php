@@ -112,6 +112,7 @@ echo "<br>";
 echo $class->prefixName("Jane Doe");
 ?>
 ------------------------------------------------------
+
 Let's look at another example where the abstract method has an argument, and the child class has two optional arguments that are not defined in the parent's abstract method:
 
 Example
