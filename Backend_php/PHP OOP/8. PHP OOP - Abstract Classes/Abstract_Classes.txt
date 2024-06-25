@@ -30,7 +30,7 @@ The number of required arguments must be the same. However, the child class may 
 Let's look at an example:
 
 Example
--------------------------------------------------------------------
+---------------------------------------------------------------------
 <?php
 // Parent class
 abstract class Car {
