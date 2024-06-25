@@ -82,7 +82,7 @@ But, intro() is an abstract method that should be defined in all the child class
 ______________________________________________________________________________________________________________________________________________________
 
 **PHP - More Abstract Class Examples
-
+_____________________________________
 Let's look at another example where the abstract method has an argument:
 
 Example
