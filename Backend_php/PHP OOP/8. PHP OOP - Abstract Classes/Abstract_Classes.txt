@@ -10,7 +10,7 @@ An abstract class is a class that contains at least one abstract method. An abst
 An abstract class or method is defined with the abstract keyword:
 
 Syntax
--------------------------------------------------------------
+---------------------------------------------------------------
 <?php
 abstract class ParentClass {
   abstract public function someMethod1();
