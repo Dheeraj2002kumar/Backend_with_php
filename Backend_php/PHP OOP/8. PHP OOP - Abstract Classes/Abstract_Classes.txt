@@ -73,6 +73,7 @@ $citroen = new citroen("Citroen");
 echo $citroen->intro();
 ?>
 -------------------------------------------------------
+
 **Example Explained
 The Audi, Volvo, and Citroen classes are inherited from the Car class. This means that the Audi, Volvo, and Citroen classes can use the public $name property as well as the public __construct() method from the Car class because of inheritance.
 
