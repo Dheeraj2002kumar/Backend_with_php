@@ -86,7 +86,7 @@ _____________________________________
 Let's look at another example where the abstract method has an argument:
 
 Example
-
+---------------------------------------------------------------
 <?php
 abstract class ParentClass {
   // Abstract method with an argument
