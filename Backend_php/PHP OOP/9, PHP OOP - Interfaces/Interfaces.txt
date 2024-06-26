@@ -10,6 +10,7 @@ Interfaces make it easy to use a variety of different classes in the same way. W
 Interfaces are declared with the interface keyword:
 
 Syntax
+
 <?php
 interface InterfaceName {
   public function someMethod1();
