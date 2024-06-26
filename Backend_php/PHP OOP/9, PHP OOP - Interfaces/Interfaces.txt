@@ -30,6 +30,7 @@ Interface are similar to abstract classes. The difference between interfaces and
   4. Classes can implement an interface while inheriting from another class at the same time
 
 =======================================================================================================================================
+
 **PHP - Using Interfaces
 To implement an interface, a class must use the implements keyword.
 
