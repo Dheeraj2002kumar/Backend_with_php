@@ -18,7 +18,7 @@ interface InterfaceName {
   public function someMethod3() : string;
 }
 ?>
-
+====================================================
 **PHP - Interfaces vs. Abstract Classes
 Interface are similar to abstract classes. The difference between interfaces and abstract classes are:
 
