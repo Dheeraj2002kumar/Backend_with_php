@@ -61,7 +61,7 @@ From the example above, let's say that we would like to write software which man
 Using interfaces, we can write some code which can work for all of the animals even if each animal behaves differently:
 
 Example
-
+-----------------------------------------
 <?php
 // Interface definition
 interface Animal {
