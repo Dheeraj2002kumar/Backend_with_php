@@ -19,6 +19,7 @@ interface InterfaceName {
 }
 ?>
 ====================================================
+
 **PHP - Interfaces vs. Abstract Classes
 Interface are similar to abstract classes. The difference between interfaces and abstract classes are:
 
