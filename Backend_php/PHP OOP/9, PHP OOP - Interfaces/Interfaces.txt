@@ -55,6 +55,7 @@ $animal = new Cat();
 $animal->makeSound();
 ?>
 -----------------------------------------
+
 From the example above, let's say that we would like to write software which manages a group of animals. There are actions that all of the animals can do, but each animal does it in its own way.
 
 Using interfaces, we can write some code which can work for all of the animals even if each animal behaves differently:
