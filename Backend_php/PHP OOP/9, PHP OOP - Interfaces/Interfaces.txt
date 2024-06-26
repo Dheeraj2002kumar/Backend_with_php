@@ -39,7 +39,7 @@ To implement an interface, a class must use the implements keyword.
 A class that implements an interface must implement all of the interface's methods.
 
 Example
-------------------------------------------
+--------------------------------------------
 <?php
 interface Animal {
   public function makeSound();
