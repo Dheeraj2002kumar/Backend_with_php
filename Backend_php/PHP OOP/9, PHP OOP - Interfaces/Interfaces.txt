@@ -1,5 +1,6 @@
 **PHP OOP - Interfaces
 
+
 **PHP - What are Interfaces?
 Interfaces allow you to specify what methods a class should implement.
 
