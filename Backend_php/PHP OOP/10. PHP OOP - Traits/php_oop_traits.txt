@@ -1,4 +1,5 @@
 PHP OOP - Traits
+
 PHP - What are Traits?
 PHP only supports single inheritance: a child class can inherit only from one single parent.
 
