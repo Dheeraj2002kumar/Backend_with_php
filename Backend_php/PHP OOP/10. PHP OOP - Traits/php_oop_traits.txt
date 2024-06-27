@@ -13,7 +13,7 @@ Traits are used to declare methods that can be used in multiple classes. Traits 
 Traits are declared with the trait keyword:
 
 Syntax
----------------------------------------------------------
+-----------------------------------------------------------
 <?php
 trait TraitName {
   // some code...
