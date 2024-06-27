@@ -45,6 +45,7 @@ $obj = new Welcome();
 $obj->msg1();
 ?>
 --------------------------------------------
+
 Example Explained
 Here, we declare one trait: message1. Then, we create a class: Welcome. The class uses the trait, and all the methods in the trait will be available in the class.
 
