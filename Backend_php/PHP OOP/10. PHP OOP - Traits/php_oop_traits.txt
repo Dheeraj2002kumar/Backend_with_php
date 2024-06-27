@@ -87,7 +87,7 @@ $obj2 = new Welcome2();
 $obj2->msg1();
 $obj2->msg2();
 ?>
-----------------------------------------
+------------------------------------------
 
 **Example Explained
 Here, we declare two traits: message1 and message2. Then, we create two classes: Welcome and Welcome2. The first class (Welcome) uses the message1 trait, and the second class (Welcome2) uses both message1 and message2 traits (multiple traits are separated by comma).
