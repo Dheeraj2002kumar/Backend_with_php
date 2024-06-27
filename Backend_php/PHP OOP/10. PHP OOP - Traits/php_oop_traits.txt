@@ -57,6 +57,7 @@ If other classes need to use the msg1() function, simply use the message1 trait 
 Let's look at another example:
 
 Example
+
 <?php
 trait message1 {
   public function msg1() {
