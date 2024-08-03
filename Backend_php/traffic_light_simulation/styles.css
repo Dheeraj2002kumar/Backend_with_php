@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  /* increse the webpage hight */
+  height: 50cm;
+
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+main {
+  padding: 1em;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+#intersection {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  border: 2px solid #f2eded;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.corner {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  perspective: 1000px;
+}
+
+#corner1 {
+  top: 0;
+  left: 0;
+}
+
+#corner2 {
+  top: 0;
+  right: 0;
+}
+
+#corner3 {
+  bottom: 0;
+  left: 0;
+}
+
+#corner4 {
+  bottom: 0;
+  right: 0;
+}
+
+.traffic-light {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* transform: rotateX(20deg) rotateY(20deg); */
+  box-shadow: 0 4px 8px rgba(236, 141, 141, 0.2);
+}
+
+.light {
+  width: 60px;
+  height: 60px;
+  margin: 10px 0;
+  border-radius: 50%;
+  background-color: grey;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+#stopwatch {
+  position: absolute;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#controls {
+  text-align: center;
+  margin-top: 20px;
+  /* controls position should little bit down */
+  height: 5cm;
+  align-content:end;
+  /* border: 1px solid rgb(232, 209, 209); */
+}
