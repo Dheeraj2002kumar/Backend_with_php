@@ -14,6 +14,7 @@ $arr = array("Bananas", "Apples", "Harpic", "Bread", "Butter");
   //     echo "$value <br>";
   // }
 
+
   
 // Better way to do this - foreach loops
 foreach ($arr as  $value) {
