@@ -7,7 +7,8 @@ $arr = array("Bananas", "Apples", "Harpic", "Bread", "Butter");
   //     echo $arr[$i];
   //     echo "<br>";
   // }
-   
+
+
   // foreach ($arr as  $value) 
   // {
   //     echo "$value <br>";
