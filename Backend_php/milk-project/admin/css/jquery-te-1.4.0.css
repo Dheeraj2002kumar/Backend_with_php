@@ -447,7 +447,7 @@
 .jqte_placeholder {
 	position:relative;
 	display:none;
-	color: #CCC;
+/* 	color: #CCC; */
 }
 .jqte_placeholder_text {
 	position:absolute;
